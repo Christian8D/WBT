@@ -1,0 +1,17 @@
+.techno-grid {
+  width: 100vw;
+  height: 620px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.techno-box {
+  padding: 47px;
+  padding-top: 88px;
+  font-family: $font-primary;
+}
+
+.techno-box h1 {
+  font-weight: 300;
+}
