@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import WBT from "./wbt";
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>DevCamp React Starter</h1>
+        <WBT />
       </div>
     );
   }

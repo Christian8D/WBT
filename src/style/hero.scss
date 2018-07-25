@@ -1,0 +1,30 @@
+.hero {
+  height: 720px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-logo {
+  position: absolute;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 16%;
+}
+
+.hero-logo img {
+  height: 200px;
+  text-align: center;
+}
+
+.hero-gif {
+  display: flex;
+  flex: wrap;
+  padding-top: 40%;
+}
+
+.hero-gif img {
+  height: 33px;
+  width: 33px;
+}
