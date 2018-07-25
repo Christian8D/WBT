@@ -2,26 +2,28 @@ import React, { Component } from 'react';
 
 class Header extends Component {
     render() {
-        return (
-            <div className="header">
-                <div className="header-logo">
-                    <img src="#"/>
-                </div>
-                <div className="menu-wrap"></div>
-                <div className="menu">
-                   <div className="bar"></div>
-                   <div className="bar"></div>
-                   <div className="bar"></div>
-                
-                
-            <ul className="link-grid">
-                   <li> <a>Home</a> </li>
-                   <li><a>Technologies</a></li>
-                   <li><a>Projects</a></li>
-                   <li><a>Contact</a></li>
-            </ul>
+        return (           
+            
+           <div class="wrapper">
+           <div class="menu-container">
+             <div class="menu">
+             <div class="bar"></div>
+             <div class="bar"></div>
+             <div class="bar"></div>
+             </div>
+
+            <div class="wrapper-list">
+ 
+              <ul class="menu-list">
+                <li class="list"><h1>Home</h1></li>
+                <li class="list"><h1>Technologies</h1></li>
+                <li class="list"><h1>Product</h1></li>
+                <li class="list"><h1>Contact</h1></li>
+              </ul>
+ 
             </div>
-            </div>
+           </div>
+         </div>
         );
     }
 }
