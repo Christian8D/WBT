@@ -1,9 +1,10 @@
 .portfolio {
   height: 795px;
   width: 100vw;
-  background-color: #ffffff;
-  padding: 60px;
+  background-color: transparent;
+  padding: 50px;
   position: relative;
+  font-family: $font-portfolio;
 }
 
 .portfolio-grid {
@@ -11,7 +12,6 @@
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: 1fr 1fr;
-  weight: 100vw;
 }
 
 .portfolio-container {
@@ -54,7 +54,7 @@
 
 .front .box-logo {
   text-transform: uppercase;
-  font-family: $font-primary;
+  font-family: $font-portfolio;
   display: inline-block;
   color: #606060;
 }
@@ -75,13 +75,13 @@
 }
 
 .back h2 {
-  font-family: $font-primary;
+  font-family: $font-portfolio;
   margin: 0;
   color: green;
 }
 
 .back h3 {
-  font-family: $font-primary;
+  font-family: $font-portfolio;
   margin: 0;
   color: white;
 }
