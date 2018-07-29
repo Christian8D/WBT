@@ -7,8 +7,8 @@
 
 .team-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 47px 147px 47px 147px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 47px 47px 47px 47px;
 }
 
 .profile {
@@ -16,10 +16,14 @@
 }
 .profile img {
   height: 333px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .profile h4 {
   font-weight: 300;
+  margin-top: 10px;
 }
 
 .profile p {
